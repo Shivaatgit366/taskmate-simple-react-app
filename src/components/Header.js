@@ -12,7 +12,9 @@ export const Header = () => {
   console.log("main", 1);
   console.log(2);
   console.log("main", 2);
+  console.log(3);
   console.log("main", 3);
+  console.log(4);
   console.log("main", 4);
 
   useEffect(() => {
