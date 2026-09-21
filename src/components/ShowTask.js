@@ -2,6 +2,7 @@ export const ShowTask = ({tasklist, setTasklist, task, setTask}) => {
 
     const handleEdit = (id) => {
         const seletedTask = tasklist.find(todo => todo.id === id);
+        console.log(seletedTask);
         setTask(seletedTask);
     }
 
