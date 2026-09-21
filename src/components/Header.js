@@ -5,6 +5,7 @@ import Logo from "../assets/logo.png"
 export const Header = () => {
   const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")) || "medium");
   console.log("conflict should come here", theme);
+  console.log(22);
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));
