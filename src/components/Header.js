@@ -7,6 +7,7 @@ export const Header = () => {
   console.log("conflict should come here", theme);
   console.log(24);
   console.log("hello world");
+  console.log(22);
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));
