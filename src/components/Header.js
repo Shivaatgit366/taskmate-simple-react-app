@@ -12,6 +12,7 @@ export const Header = () => {
   console.log("main", 1);
   console.log(2);
   console.log("main", 2);
+  console.log(3);
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));
