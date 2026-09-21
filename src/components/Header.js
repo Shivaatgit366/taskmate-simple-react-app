@@ -4,7 +4,8 @@ import Logo from "../assets/logo.png"
 
 export const Header = () => {
   const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")) || "medium");
-  console.log(22);
+  console.log(24);
+  console.log("hello world");
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));
